@@ -7,11 +7,12 @@ branches:
 after_success:
   bash scripts/deploy.sh
 deploy:
-  local_dir: build_gh
+  local_dir: dist
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
+  edge: true
   on:
     branch: build_gh
 
