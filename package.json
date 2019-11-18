@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Hello world\"",
     "dev": "parcel serve src/index.html --open",
-    "build": "rm -rf build/* && parcel build $npm_package_main -d build --public-url /"
+    "build": "rm -rf dist/* && parcel build src/index.html -d dist --public-url /"
   },
   "keywords": [],
   "author": "",

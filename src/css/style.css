@@ -1,0 +1,16 @@
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    color: palevioletred;
+}
+
+h3{
+    color: darkviolet;
+}
