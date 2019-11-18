@@ -3,7 +3,7 @@ node_js:
   - stable
 branches:
   only:
-    -build_gh
+    - build_gh
 after_success:
   bash scripts/deploy.sh
 deploy:
