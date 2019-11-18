@@ -6,6 +6,8 @@ branches:
     - build_gh
 after_success:
   bash scripts/deploy.sh
+scripts:
+  bash scripts/deploy.sh
 deploy:
   local_dir: dist
   provider: pages
